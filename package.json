@@ -18,6 +18,7 @@
   "homepage": "https://github.com/simplerdf/simplerdf-store",
   "devDependencies": {
     "mocha": "^3.2.0",
+    "rdf-store-dataset": "git://github.com/rdf-ext/rdf-store-dataset#develop",
     "simplerdf-core": "git://github.com/simplerdf/simplerdf-core#develop",
     "standard": "^10.0.2"
   },
