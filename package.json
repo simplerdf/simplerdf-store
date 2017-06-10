@@ -1,0 +1,28 @@
+{
+  "name": "simplerdf-store",
+  "version": "0.3.0",
+  "description": "SimpleRDF store plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simplerdf/simplerdf-store.git"
+  },
+  "author": "Thomas Bergwinkl <bergi@axolotlfarm.org> (https://www.bergnet.org/people/bergi/card#me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simplerdf/simplerdf-store/issues"
+  },
+  "homepage": "https://github.com/simplerdf/simplerdf-store",
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "simplerdf-lite": "git://github.com/simplerdf/simplerdf-lite#develop",
+    "standard": "^10.0.2"
+  },
+  "dependencies": {
+    "rdf-ext": "git://github.com/rdf-ext/rdf-ext#develop",
+    "rdf-store-web": "git://github.com/rdf-ext/rdf-store-web#develop"
+  }
+}
